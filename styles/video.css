@@ -1,0 +1,42 @@
+
+ 
+  
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    #main{
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+    #recommendation{
+        flex: 2;
+    }
+    #video_details{
+        flex: 4;
+        
+    }
+    .subrecommnd{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    h3{
+        margin-top: 0px;
+    }
+    .info{
+        margin-left: 10px;
+    }
+    /* #main>div{
+         border: 1px solid red; 
+    } */
+    .commentbox{
+        display: flex;
+    }
+    .infodiv{
+        margin-left: 20px;
+    }
+    .commentbox img{
+        border-radius: 50%;
+    }
